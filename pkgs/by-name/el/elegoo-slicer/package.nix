@@ -39,5 +39,6 @@ appimageTools.wrapType2 {
     license = lib.licenses.agpl3Only;
     mainProgram = "elegoo-slicer";
     platforms = lib.platforms.linux;
+    maintainers = with lib.maintainers; [ friendliness ];
   };
 }
